@@ -61,7 +61,7 @@ const enableBox = () => {
     }
 }
 const showWinner = (winner)=>{
-    msg.innerHTML = `Congratulation, Winner is <b>${winner}</b> `;
+    msg.innerHTML = `Congratulation, Winner is :  &nbsp; <b> ${winner} </b> `;
     msgContainer.classList.remove("msg-container");
     disabledbox();
 }
